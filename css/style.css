@@ -1,0 +1,205 @@
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    border: 0;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.3fr 0.6fr 0.43fr ;
+    
+}
+.container .left{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    padding-top: 2em;
+    
+}
+
+.container .left .card{
+min-width: 250px;
+position: fixed;
+
+}
+
+.container .left .card .list ul li{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 1em 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.container .left .card .list ul li:hover{
+    background-color:#f4f7f8;
+    cursor: pointer;
+    width: 80%;
+    color: #1da1f2;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+
+}
+
+
+.container .left .card .bt .btn{
+            width: 80%; 
+             background-color: #1da1f2;
+             color: white;  
+            display: block;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            font-size: 1em;
+            line-height: 1.4em;
+            padding: 10px 20px;
+            border-radius: 100px;
+            font-weight: bold;
+}
+
+
+
+
+.container .middle{
+    /* background-color: black; */
+    border: 0.5px solid #dbd7d7;
+    border-bottom: none;
+    height: 200vh;
+    display: grid;
+    
+}
+.container .middle .midcard{
+min-width: 290px;    
+} 
+.container .middle .midcard .midmiddle .midpic{
+    display: flex;
+    justify-content: baseline;
+    
+    /* margin: 1em; */
+}
+
+.container .middle .midcard .midmiddle .midlist{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.container .middle .midcard .midmiddle .midlist .midlist1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right:  15px;
+    font-size: 20px;
+}
+.container .middle .midcard .midmiddle .midlist .midlist2 ul li{
+list-style-type: none;
+display: inline-block;
+font-size: 20px;
+margin-right: 10px;
+/* margin-left: 15px; */
+}
+
+.container .middle .midcard .midmiddle .midlist .midlist2 .midbtn{
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor:pointer;
+    padding: 12px 8px;
+    width: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container .middle .midcard .middown{
+    width: 600px;
+}
+
+.container .middle .midcard .middown .logontxt{
+    display: flex;
+}
+.container .middle .midcard .middown .pic-txt-arrw{
+    display: flex;
+justify-content: space-between;
+}
+
+.container .middle .midcard .middown .pic-list{
+    margin: 0 60px;
+}
+ .container .middle .midcard .middown .pic-list .list-down-logos ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-right:40px;
+}
+
+ /* .midpic-down{
+    display: flex;
+    justify-content: space-between;
+} */ 
+
+
+.container .right{
+    /* background-color: brown; */
+    height: 100vh;
+}
+.container .right .right-card{
+    min-width: 300px;
+}
+
+.container .right .right-card .right-card-btn{
+    width: 80%;
+    height: 40px;
+    display: block;
+    margin: 1em auto;
+    border: 1px solid #dbd7d7;
+    border-radius: 100px;
+}
+
+.container .right .right-card .right-middle .trends{
+    background-color: #f4f7f8;
+    width: 80%;
+    
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #dbd7d7;
+    border-radius: 20px;
+}
+
+.container .right .right-card .right-middle .who-to-fellow{
+    background-color:#f4f7f8;
+    width: 80%;
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid #dbd7d7;
+    border-radius: 20px;
+}
+
+.container .right .right-card .right-middle .who-to-fellow .right-btn{
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor:pointer;
+    padding: 12px 8px;
+    width: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 40px;
+    color: #dbd7d7;
+}
